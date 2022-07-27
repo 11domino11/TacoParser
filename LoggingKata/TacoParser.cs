@@ -49,9 +49,9 @@
 
             // Then, return the instance of your TacoBell class
             // Since it conforms to ITrackable
-            logger.LogInfo($"{tacoBell.Name} at {tacoBell.Location}");
+            
 
-            return null;
+            return tacoBell;
         }
     }
 }
