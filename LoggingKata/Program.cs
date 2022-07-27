@@ -30,6 +30,10 @@ namespace LoggingKata
             var locations = lines.Select(parser.Parse).ToArray();
 
             // DON'T FORGET TO LOG YOUR STEPS
+            foreach (var item in locations)
+            {
+                Console.WriteLine(item);
+            }
 
             // Now that your Parse method is completed, START BELOW ----------
 
